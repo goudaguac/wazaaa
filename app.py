@@ -10,8 +10,7 @@ st.title("🏨 Hospitality Land Calculator (URA Master Plan 2019)")
 # 1. Load your GeoJSON / KML
 # -------------------------------
 # Example: load from local folder
-geojson_file = "data/MP2019_UDG.geojson
-"
+geojson_file = "data/MP2019_UDG.geojson"
 
 try:
     gdf = gpd.read_file(geojson_file)
